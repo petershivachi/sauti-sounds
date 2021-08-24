@@ -570,8 +570,8 @@ nav {
   width: 80px;
   height: 80px;
   padding: 10px;
-  margin:  10px;
-  text-align: center; 
+  margin: 10px;
+  text-align: center;
 }
 
 .product-form .image-input .product-images .product-image:focus {
@@ -580,9 +580,30 @@ nav {
 
 .product-form .image-input .product-images .product-image i {
   color: var(--primary-color);
-  text-align: center;  
+  text-align: center;
   background-color: #fff;
   padding: 10px;
   border-radius: 50%;
   display: block;
+}
+
+/* Customers */
+.customers table  {
+  background-color: #fff;
+  margin: auto;
+  padding: 2rem;
+}
+
+.customers table th {
+  margin: auto;
+  padding: 1rem;
+}
+
+.customers table td {
+  margin: auto;
+  padding: 2rem;
+}
+
+.customers table .th-border {
+  border-left: 1px solid #888;
 }
