@@ -445,6 +445,7 @@ nav {
 /* Caregory */
 .category-form .row {
   background-color: #fff;
+  align-items: flex-start;
 }
 .category-form .row .text-input {
   margin: auto 40px;
@@ -457,17 +458,27 @@ nav {
 .category-form .custom-container .row .col label {
   display: block;
 }
-.category-form input[type="text"] {
+
+.category-form input[type="text"],
+.category-form input[type="number"] {
   padding: 6px;
   width: 100%;
   border-radius: 5px;
-  border: solid #888 2px;
+  border: solid #888 1px;
+}
+
+.category-form select {
+  padding: 6px;
+  width: 100%;
+  border-radius: 5px;
+  border: solid #888 1px;
 }
 
 .category-form textarea {
   width: 100%;
-  border: solid rgb(136, 128, 128) 2px;
+  border: solid rgb(136, 128, 128) 1px;
   border-radius: 5px;
+  padding: 5px;
 }
 
 .category-form textarea:focus {
@@ -484,4 +495,94 @@ nav {
 
 .category-form .image-box:focus {
   outline: none;
+}
+
+/* Product */
+.product-form {
+  justify-content: space-between;
+}
+.product-form .row {
+  background-color: #fff;
+  align-items: flex-start;
+}
+.product-form .row .text-input {
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+.product-form .row .image-input {
+  margin: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.product-form .custom-container .row .col label {
+  display: block;
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"] {
+  padding: 6px;
+  width: 100%;
+  border-radius: 5px;
+  border: solid #888 1px;
+}
+
+.product-form select {
+  padding: 6px;
+  width: 100%;
+  border-radius: 5px;
+  border: solid #888 1px;
+}
+
+.product-form textarea {
+  width: 100%;
+  border: solid rgb(136, 128, 128) 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.product-form textarea:focus {
+  outline: none;
+}
+
+.product-form .image-box {
+  background-color: #ddd;
+  border: solid #888 2px;
+  height: 320px;
+  width: 280px;
+}
+
+.product-form .image-box:focus {
+  outline: none;
+}
+
+.product-form .product-images {
+  display: grid;
+  padding: 10px;
+}
+
+.product-form .image-input .product-images .product-image {
+  background-color: #ddd;
+  border: solid #888 2px;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  margin:  10px;
+  text-align: center; 
+}
+
+.product-form .image-input .product-images .product-image:focus {
+  outline: none;
+}
+
+.product-form .image-input .product-images .product-image i {
+  color: var(--primary-color);
+  text-align: center;  
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  display: block;
 }
