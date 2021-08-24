@@ -154,6 +154,13 @@ button:focus {
   border: none;
   border-bottom: solid #888 1px;
   border-radius: 0;
+  padding: 10px 5px;
+  background-color: #ddd;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
 }
 
 .login .form-check {
@@ -433,4 +440,48 @@ nav {
   width: 800px;
   margin: auto;
   padding: 20px;
+}
+
+/* Caregory */
+.category-form .row {
+  background-color: #fff;
+}
+.category-form .row .text-input {
+  margin: auto 40px;
+}
+
+.category-form .row .image-input {
+  margin: auto;
+  padding: 3rem 2rem;
+}
+.category-form .custom-container .row .col label {
+  display: block;
+}
+.category-form input[type="text"] {
+  padding: 6px;
+  width: 100%;
+  border-radius: 5px;
+  border: solid #888 2px;
+}
+
+.category-form textarea {
+  width: 100%;
+  border: solid rgb(136, 128, 128) 2px;
+  border-radius: 5px;
+}
+
+.category-form textarea:focus {
+  outline: none;
+}
+
+.category-form .image-box {
+  background-color: #ddd;
+  border: solid #888 2px;
+  height: 300px;
+  width: 400px;
+  margin: auto;
+}
+
+.category-form .image-box:focus {
+  outline: none;
 }
