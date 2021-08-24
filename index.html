@@ -62,23 +62,19 @@
           <ul>
             <li>
               <a routerLink="/orders" class="nav-link link-dark"
-              ><img
-                class="bi me-2"
-                src="./assets/image/orders.svg"
-                height="16"
-                width="16"
-                alt=""
-              />
-              Orders
-            </a>
+                ><img
+                  class="bi me-2"
+                  src="./assets/image/orders.svg"
+                  height="16"
+                  width="16"
+                  alt=""
+                />
+                Orders
+              </a>
             </li>
             <li>
               <a href="/products" class="nav-link link-dark">
-                <img
-                  class="bi me-2"
-                  src="./assets/image/products.svg"
-                  alt=""
-                />
+                <img class="bi me-2" src="./assets/image/products.svg" alt="" />
                 Products
               </a>
             </li>
@@ -117,8 +113,59 @@
     <!-- ======= Hero Section ======= -->
     <section
       id="hero"
-      class="d-flex flex-column justify-content-center align-items-center"
-    ></section>
+      class="
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center
+        m-auto
+      "
+    >
+      <!-- Navbar -->
+      <nav class="navbar navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="custom-container">
+         
+            
+
+            <!-- Avatar -->
+            <a
+              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="https://mdbootstrap.com/img/new/avatars/2.jpg"
+                class="rounded-circle"
+                height="25"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item" href="#">My profile</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Settings</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Logout</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+    </section>
     <!-- End Hero -->
 
     <main id="main"></main>

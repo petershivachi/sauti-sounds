@@ -428,3 +428,9 @@ button:focus {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
+
+nav {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+}
