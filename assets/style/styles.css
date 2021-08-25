@@ -588,9 +588,12 @@ nav {
 }
 
 /* Customers */
-.customers table  {
+
+.customers .customers-table{
   background-color: #fff;
-  margin: auto;
+}
+.customers table  {
+  
   padding: 2rem;
 }
 
@@ -601,9 +604,43 @@ nav {
 
 .customers table td {
   margin: auto;
-  padding: 2rem;
+  padding: 1.6rem;
 }
 
 .customers table .th-border {
+  border-left: 1px solid #888;
+}
+
+/* Orders */
+.customer-details  .details,
+.customer-details  .order-details {
+  background-color: #fff;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 400px;
+}
+
+/* Orders Details */
+.orders .orders-table{
+  background-color: #fff;
+}
+.orders table  {
+  
+  padding: 2rem;
+}
+
+.orders table th {
+  margin: auto;
+  padding: 1rem;
+}
+
+.orders table td {
+  margin: auto;
+  padding: 1.6rem;
+}
+
+.orders table .th-border {
   border-left: 1px solid #888;
 }
