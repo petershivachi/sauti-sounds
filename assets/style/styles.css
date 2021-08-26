@@ -36,10 +36,10 @@ p {
   margin: 10px 0;
 }
 
-img {
+/* img {
   width: 100%;
   color: var(--primary-color);
-}
+} */
 
 /* Custom Container */
 .custom-container {
@@ -588,7 +588,6 @@ nav {
 }
 
 /* Customers */
-
 .customers .customers-table{
   background-color: #fff;
 }
@@ -642,5 +641,30 @@ nav {
 }
 
 .orders table .th-border {
+  border-left: 1px solid #888;
+}
+
+/* Categories */
+.categories .categories-table{
+  background-color: #fff;
+}
+.categories table  {
+  
+  padding: 2rem;
+}
+
+.categories table th {
+  margin: auto;
+  padding: 1rem;
+}
+
+.categories table .align-center {
+  margin: auto;
+  text-align: center;
+  vertical-align: center;
+  justify-content: center;
+}
+
+.categories table .th-border {
   border-left: 1px solid #888;
 }
