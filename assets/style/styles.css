@@ -588,11 +588,10 @@ nav {
 }
 
 /* Customers */
-.customers .customers-table{
+.customers .customers-table {
   background-color: #fff;
 }
-.customers table  {
-  
+.customers table {
   padding: 2rem;
 }
 
@@ -611,8 +610,8 @@ nav {
 }
 
 /* Orders */
-.customer-details  .details,
-.customer-details  .order-details {
+.customer-details .details,
+.customer-details .order-details {
   background-color: #fff;
   padding: 2rem;
   justify-content: space-between;
@@ -622,11 +621,10 @@ nav {
 }
 
 /* Orders Details */
-.orders .orders-table{
+.orders .orders-table {
   background-color: #fff;
 }
-.orders table  {
-  
+.orders table {
   padding: 2rem;
 }
 
@@ -645,11 +643,10 @@ nav {
 }
 
 /* Categories */
-.categories .categories-table{
+.categories .categories-table {
   background-color: #fff;
 }
-.categories table  {
-  
+.categories table {
   padding: 2rem;
 }
 
@@ -667,3 +664,38 @@ nav {
 .categories table .th-border {
   border-left: 1px solid #888;
 }
+
+/* Products */
+.products-list .products-list-table {
+  background-color: #fff;
+}
+.products-list table {
+  padding: 2rem;
+}
+
+.products-list table th {
+  margin: auto;
+  padding: 1rem;
+}
+
+.products-list table td {
+  margin: auto;
+  padding: 1.6rem;
+}
+
+.products-list table .th-border {
+  border-left: 1px solid #888;
+}
+
+.products .products-grid {
+  display: grid;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.products .products-grid .product-items {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+}
+
