@@ -1,0 +1,9 @@
+@media (max-width: 700px) {
+  .custom-container {
+    padding: 0px;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+}
