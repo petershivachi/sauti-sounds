@@ -553,6 +553,7 @@ nav {
   border: solid #888 2px;
   height: 320px;
   width: 280px;
+  padding: 2rem;
 }
 
 .product-form .image-box:focus {
@@ -578,17 +579,31 @@ nav {
   outline: none;
 }
 
-.product-form .image-input .product-images .product-image i {
-  color: var(--primary-color);
-  text-align: center;
+.product-form .image-input .product-images .product-image img  {
+  margin: auto;
+  align-items: center;
+}
+
+.product-form .image-input .product-images .product-image div {
   background-color: #fff;
-  padding: 10px;
   border-radius: 50%;
-  display: block;
+  padding: 10px;
+}
+
+.product-form .image-input .image-box {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 @media (max-width:  667px) {
+.product-form .row .image-input {
+  display: grid;
+}
 
+.product-form .row .image-input  .product-images {
+  display: flex;
+}
 }
 
 /* Customers */
@@ -612,6 +627,8 @@ nav {
 .customers table .th-border {
   border-left: 1px solid #888;
 }
+
+
 
 /* Orders */
 .customer-details .details,
@@ -644,6 +661,20 @@ nav {
 
 .orders table .th-border {
   border-left: 1px solid #888;
+}
+
+@media (max-width:  667px) {
+  .custom-container {
+    padding: auto 5px;
+  }
+
+  .orders table {
+  padding: 2rem 5px;
+}
+
+.orders .custom-container {
+  padding: auto 5px;
+}
 }
 
 /* Categories */
