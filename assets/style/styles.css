@@ -720,6 +720,25 @@ nav {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
    }
+
+   .hide-sm {
+    display: none;
+  }
+
+  .products-list table th {
+  margin: auto;
+  padding: 1rem;
+}
+
+  .products-list table td {
+    padding: 1rem;
+    margin:  auto;
+  }
+
+  .products-list table {
+  padding: 0.5rem;
+}
+
 }
 
 
@@ -730,4 +749,5 @@ nav {
     justify-content: space-between;
     padding: 1rem;
   }
+
 }
