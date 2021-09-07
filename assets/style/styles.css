@@ -497,7 +497,7 @@ nav {
   outline: none;
 }
 
-/* Product */
+/* Product-Form*/
 .product-form {
   justify-content: space-between;
 }
@@ -587,6 +587,10 @@ nav {
   display: block;
 }
 
+@media (max-width:  667px) {
+
+}
+
 /* Customers */
 .customers .customers-table {
   background-color: #fff;
@@ -648,9 +652,15 @@ nav {
 }
 .categories table {
   padding: 2rem;
+  margin: auto;
 }
 
 .categories table th {
+  margin: auto;
+  padding: 1rem;
+}
+
+.categories table td {
   margin: auto;
   padding: 1rem;
 }
@@ -663,6 +673,15 @@ nav {
 
 .categories table .th-border {
   border-left: 1px solid #888;
+}
+
+@media (max-width:  667px) {
+  .categories {
+    margin: auto;
+  }
+  .categories table {
+  padding: 10px;
+}
 }
 
 /* Products */
